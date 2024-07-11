@@ -11,3 +11,18 @@ flake8@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/flake8/-/flake8-0.0.1.tgz#1f05a813d39cd4fc803e5ece884382e497bb2693"
   integrity sha512-3uRF+YBAgl7kG1ibE3Roy/nldjEDnF8tHcYsp5LMrWI4V65xY/2r22hwCvX5uFRV0WfQGvzfaJg3lkyCHBIPhQ==
+
+husky@^9.0.11:
+  version "9.0.11"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-9.0.11.tgz#fc91df4c756050de41b3e478b2158b87c1e79af9"
+  integrity sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==
+
+pytest-cov@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/pytest-cov/-/pytest-cov-0.0.1.tgz#fb770d6fd41458ea5c4338c80513355f3018a6be"
+  integrity sha512-S51RGO+1hvP/01nv+up7wOnkcoJXLVgc2Odmt6N6T1Vs1WV5EUImnsSxBcnDz6AxCqJrGHHI6eM2jOtqX+h9BQ==
+
+pytest@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/pytest/-/pytest-1.0.0.tgz#5fa23778c77a937209b5d2560e1246dda9507fe6"
+  integrity sha512-nh2Z5MFd6WyMqUYvLoTrbGpkcI1Gb2GQ2HmdaGZ0h4lCc8FENRhSr5lcHKSK9KIQ9gfrUT5zJaxRbaA/1XjLlA==

@@ -7,11 +7,22 @@
     "prod": "docker-compose -f docker-compose.yml up -d --build fasttaskapi-prod",
     "down": "docker-compose -f docker-compose.yml down",
     "lint": "flake8 .",
-    "format": "black ."
+    "format": "black .",
+    "test": "pytest",
+    "test:watch": "pytest --watch",
+    "test:coverage": "pytest --cov=app --cov-report=html"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && yarn format && yarn test:watch"
+    }
   },
   "dependencies": {},
   "devDependencies": {
     "black": "^0.3.0",
-    "flake8": "^0.0.1"
+    "flake8": "^0.0.1",
+    "husky": "^9.0.11",
+    "pytest": "^1.0.0",
+    "pytest-cov": "^0.0.1"
   }
 }
