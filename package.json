@@ -1,0 +1,17 @@
+{
+  "name": "fasttaskapi",
+  "version": "1.0.0",
+  "description": "FastTaskAPI project configuration",
+  "scripts": {
+    "dev": "docker-compose -f docker-compose.yml up",
+    "prod": "docker-compose -f docker-compose.yml up -d --build fasttaskapi-prod",
+    "down": "docker-compose -f docker-compose.yml down",
+    "lint": "flake8 .",
+    "format": "black ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "black": "^0.3.0",
+    "flake8": "^0.0.1"
+  }
+}

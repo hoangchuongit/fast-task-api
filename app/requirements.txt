@@ -1,0 +1,6 @@
+fastapi==0.68.2
+uvicorn==0.15.0
+pydantic==1.9.0
+httpx==0.22.0
+python-dotenv==0.19.2
+arango-orm==0.5.0
